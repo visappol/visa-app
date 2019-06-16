@@ -1,6 +1,4 @@
-import express from "express";
-import path from "path";
-
+const express = require("express");
 const app = express();
 const port = 8080; // default port to listen
 app.use(express.static("views"));
